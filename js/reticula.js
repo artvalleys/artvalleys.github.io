@@ -50,25 +50,32 @@ const PLANOS = {
     },
   },
   'hoja-3': {
-    filas: 58,
+    filas: 80,
     colocar(k, { cl, cr }) {
       const L = cl, RC = cr - 27;
       colocar(k('label'), L, 23, 3, 1);
       colocar(k('title'), L, 23, 5, 3);
       colocar(k('cota'), L, 23, 8, 1);
-      colocar(k('ymLabel'), L, 23, 11, 1);
-      colocar(k('ymH'), L, 23, 13, 1);
-      colocar(k('ymText'), L, 23, 15, 3);
-      colocar(k('ymFicha'), L, 23, 19, 2);
-      colocar(k('tasks'), RC, 27, 11, 17);
-      colocar(k('dvLabel'), L, 23, 30, 1);
-      colocar(k('dvShot'), L, 23, 32, 13);
-      colocar(k('dvText'), L, 23, 46, 3);
-      colocar(k('dvLink'), L, 23, 49, 1);
-      colocar(k('vtLabel'), RC, 27, 30, 1);
-      colocar(k('vtShot'), RC, 27, 32, 15);
-      colocar(k('vtText'), RC, 27, 48, 2);
-      colocar(k('vtLink'), RC, 27, 50, 1);
+      colocar(k('pcLabel'), L, 23, 11, 1);
+      colocar(k('pcH'), L, 23, 13, 1);
+      colocar(k('pcText'), L, 23, 15, 4);
+      colocar(k('pcFicha'), L, 23, 20, 4);
+      colocar(k('pcCapLabel'), RC, 27, 11, 1);
+      colocar(k('pcShot'), RC, 27, 13, 15);
+      colocar(k('pcCap'), RC, 27, 29, 3);
+      colocar(k('ymLabel'), L, 23, 33, 1);
+      colocar(k('ymH'), L, 23, 35, 1);
+      colocar(k('ymText'), L, 23, 37, 3);
+      colocar(k('ymFicha'), L, 23, 41, 2);
+      colocar(k('tasks'), RC, 27, 33, 17);
+      colocar(k('dvLabel'), L, 23, 52, 1);
+      colocar(k('dvShot'), L, 23, 54, 13);
+      colocar(k('dvText'), L, 23, 68, 3);
+      colocar(k('dvLink'), L, 23, 71, 1);
+      colocar(k('vtLabel'), RC, 27, 52, 1);
+      colocar(k('vtShot'), RC, 27, 54, 15);
+      colocar(k('vtText'), RC, 27, 70, 2);
+      colocar(k('vtLink'), RC, 27, 72, 1);
     },
   },
   'hoja-4': {
@@ -101,7 +108,7 @@ const PLANOS = {
       colocar(k('ganttLabel'), fl, 52, 11, 1);
       colocar(k('gantt'), fl, 52, 13, 11);
       colocar(k('expLabel'), L, 23, 26, 1);
-      colocar(k('jobs'), L, 23, 28, 15);
+      colocar(k('jobs'), L, 23, 28, 20);
       colocar(k('eduLabel'), RC, 27, 26, 1);
       colocar(k('edu'), RC, 27, 28, 4);
       colocar(k('bach'), RC, 27, 33, 2);
